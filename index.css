@@ -172,14 +172,13 @@ button {
   transition: background-color 0.3s; /* Плавный переход цвета */
 }
 
-
 button:hover {
   background-color: gold; /* Цвет кнопки при наведении */
 }
 
 #counter {
   font-size: 24px;
-  margin: 20px 0;
+  margin: 10px 0;
   font-weight: bold;
 }
 
