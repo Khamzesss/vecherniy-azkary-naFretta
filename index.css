@@ -171,10 +171,7 @@ button {
   
   transition: background-color 0.3s; /* Плавный переход цвета */
 }
-#counter{
 
-  transform: translateX(10px);
-}
 
 button:hover {
   background-color: gold; /* Цвет кнопки при наведении */
