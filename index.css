@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  gap: 0;
+  margin: 0;
+}
+
+.description img {
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-image: url(./img/backazkary777.jpg);
+  border-radius: 0 0 30px 30px;
+  padding: 4px 0;
+  width: 100%;
+
+  border: 3px solid yellow;
+  animation: blink 5s infinite;
+  transform: translate(-3px);
+}
+
+@keyframes blink {
+  0% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: yellow;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+.pet {
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-size: 19px;
+  text-align: center;
+  text-shadow: 1px 1px 2px yellow;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: #ffffff;
+  }
+  100% {
+    color: yellow;
+  }
+}
+
+.question {
+  border: 1px solid yellow;
+  border-radius: 16px;
+  color: white;
+  margin-top: 5px;
+  animation: blink 5s infinite;
+  transform: translateY(135px);
+}
+.question1 {
+  border: 3px solid yellow;
+  border-radius: 16px 16px 0px 0px;
+  color: white;
+  margin-top: 5px;
+  animation: blink 5s infinite;
+  transform: translateY(125px);
+}
+
+.questionp {
+  margin: 10px 10px;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 24px;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 0.5px yellow;
+}
+.newp {
+  margin: 10px 10px;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 22px;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 0.5px yellow;
+}
+.newp2 {
+  margin: 10px 10px;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 22px;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  color: white;
+}
+.questionp1 {
+  margin: 10px 10px;
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 0.5px yellow;
+}
+
+@keyframes blink {
+  0% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: yellow;
+  }
+}
+
+.button-container {
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: 10px; */
+  position: fixed; /* Закрепляем контейнер кнопок */
+  bottom: 3px; /* Отступ от нижней части окна */
+  border-radius: 50px;
+
+  font-family: "Exo 2", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 13px;
+  color: rgb(246, 255, 0);
+  background-color: black;
+}
+
+button {
+  margin: 5px;
+  /* padding: 10px 20px; */
+  font-size: 25px;
+  background-color: yellow; /* Цвет кнопок */
+  border: none; /* Убираем рамку */
+  border-radius: 50px; /* Закругленные углы */
+  
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+#counter{
+
+  transform: translateX(10px);
+}
+
+button:hover {
+  background-color: gold; /* Цвет кнопки при наведении */
+}
+
+#counter {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.cont-block{
+display: flex;
+justify-content: center;
+}
